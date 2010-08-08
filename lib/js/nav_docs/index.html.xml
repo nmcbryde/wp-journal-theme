@@ -1,0 +1,153 @@
+<?xml-stylesheet type="text/xsl" href="docs.xsl"?><javascript fileName="nav.js">
+    <function name="Navigation" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="false" internal="false" type="Function">
+        <description>This is used to store date information for the calendar navigation widget.</description>
+        <parameters>
+            <parameter name="yearNum" type="Number">
+                <description>Fetches post data for specified year</description>
+            </parameter>
+        </parameters>
+        <function name="getSelectedYear" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="false" internal="false" type="Number">
+            <description>Returns the year number</description>
+            <return-types>
+                <return-type type="Number" />
+            </return-types>
+        </function>
+        <function name="getSelectedMonth" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Function">
+        </function>
+        <function name="setSelectedYear" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="false" internal="false" type="Number">
+            <description>Returns the year number</description>
+            <return-types>
+                <return-type type="Number" />
+            </return-types>
+            <property name="this" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+                <property name="selectedYear" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+                </property>
+                <property name="months" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+                </property>
+            </property>
+        </function>
+        <function name="createMonths" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="false" internal="false" type="Array">
+            <description>Creates an array of months with post information drawn from the server</description>
+            <return-types>
+                <return-type type="Array" />
+            </return-types>
+            <property name="createMonths" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="false" internal="false" type="Array">
+                <description>Creates an array of months with post information drawn from the server</description>
+            </property>
+            <property name="monthArray" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+            </property>
+        </function>
+        <function name="getYearString" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Function">
+            <property name="yearString" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="String">
+            </property>
+            <property name="monthNames" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+            </property>
+        </function>
+        <function name="getMonth" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Function">
+        </function>
+        <function name="draw" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Function">
+        </function>
+        <property name="stuff" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+        </property>
+        <property name="this" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+            <property name="getSelectedYear" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+            </property>
+            <property name="getSelectedMonth" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+            </property>
+            <property name="setSelectedYear" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+            </property>
+            <property name="createMonths" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+            </property>
+            <property name="getMonth" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+            </property>
+            <property name="getYearString" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+            </property>
+            <property name="selectedMonth" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+            </property>
+            <property name="currentMonth" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+            </property>
+            <property name="selectedYear" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+            </property>
+            <property name="currentYear" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+            </property>
+            <property name="selectedDay" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+            </property>
+            <property name="currentDay" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+            </property>
+            <property name="months" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+            </property>
+        </property>
+    </function>
+    <function name="Month" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Function">
+        <function name="getMonthNum" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Function">
+        </function>
+        <function name="addPost" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Function">
+        </function>
+        <function name="getPosts" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Function">
+        </function>
+        <function name="getPostCount" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Function">
+        </function>
+        <function name="getMonthString" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Function">
+            <property name="monthString" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="String">
+            </property>
+            <property name="startPointer" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Number">
+            </property>
+        </function>
+        <property name="this" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+            <property name="getMonthNum" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+            </property>
+            <property name="addPost" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+            </property>
+            <property name="getPosts" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+            </property>
+            <property name="getPostCount" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+            </property>
+            <property name="getMonthString" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+            </property>
+            <property name="postCount" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Number">
+            </property>
+            <property name="monthNum" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+            </property>
+            <property name="daysNum" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+            </property>
+            <property name="posts" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+            </property>
+        </property>
+    </function>
+    <function name="Post" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Function">
+        <function name="getName" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Function">
+        </function>
+        <function name="getDay" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Function">
+        </function>
+        <function name="getId" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Function">
+        </function>
+        <property name="this" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+            <property name="getName" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+            </property>
+            <property name="getDay" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+            </property>
+            <property name="getId" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+            </property>
+            <property name="name" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+            </property>
+            <property name="day" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+            </property>
+            <property name="id" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+            </property>
+        </property>
+    </function>
+    <function name="getCurrentMonth" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Function">
+    </function>
+    <function name="getCurrentYear" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="false" internal="false" type="Number">
+        <description>Returns the current month</description>
+        <return-types>
+            <return-type type="Number" />
+        </return-types>
+    </function>
+    <function name="getCurrentDay" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="false" internal="false" type="Number">
+        <description>Returns the current year</description>
+        <return-types>
+            <return-type type="Number" />
+        </return-types>
+    </function>
+</javascript>

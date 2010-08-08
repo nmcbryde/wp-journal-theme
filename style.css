@@ -1,0 +1,121 @@
+@CHARSET "ISO-8859-1";
+
+/* browser reset */
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}
+body {line-height:1.5;}
+table {border-collapse:separate;border-spacing:0;}
+caption, th, td {text-align:left;font-weight:normal;}
+table, td, th {vertical-align:middle;}
+blockquote:before, blockquote:after, q:before, q:after {content:"";}
+blockquote, q {quotes:"s" "s";}
+a img {border:none;}
+fieldset { margin: 0 0 15px 0; display:inline; }
+.field { display:inline; float: right;}
+fieldset label { float: left; display:block; width: 45px; margin-right:20px; text-align: right;}
+
+
+/* the layout */
+
+body { text-align: left; font-size: 80%; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+.year { text-align: center; font-size: 20px; color:#505050; display:block; }
+.months { width: 100%; overflow: visible; }
+.days { width: 100%;  }
+
+/* --- basic typography --- */
+
+h1, h2, h3, h4 { font-family: Georgia,"Times New Roman",Times,serif; color: #1b53f4; margin: 20px 0 5px 0; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.3em; }
+.post h2 { margin: 0; }
+a {	color:#505050; font-size: 100%; text-decoration: underline; }
+a:hover { text-decoration: none; }
+p { color: #222; text-align: justify; margin: 4px 0 12px 0; }
+blockquote { font-family: Georgia,"Times New Roman",Times,serif; font-style: italic; line-height: 130%; }
+code { border-left: solid 5px #ABABAB; background-color: #f3f3f3; font-family: "Courier New"; margin: 20px 30px; padding: 20px; display: block; white-space: pre-wrap; }
+.code { background-color: #f3f3f3; font-family: "Courier New"; margin: 20px 30px; padding: 20px; display: block; white-space: pre-wrap; }
+code span.comment{ color: #6c6c6c;}
+em {font-style: italic;}
+blockquote { margin: 10px 30px; font-family: Georgia,"Times New Roman",Times,serif; color: #6e6e6e; text-align: left;}
+li { margin: 10px 2px; }
+#content-main .image { text-align: center; padding:10px 0; overflow: auto; display: block; }
+
+
+/* --- basic styles --- */
+
+.container { width: 1000px; margin:0 auto; overflow:auto; }
+.alignleft { float: left; margin-right: 20px; }
+.alignright { float: right; }
+.aligncenter { text-align: center; display:inherit; }
+.aligncenter, div.aligncenter { display:block; margin-left:auto; margin-right:auto; }
+.alignleft { display:block; float: left;}
+
+/* -- post layout -- */
+
+.post { margin-bottom: 40px; clear: both; overflow: auto; }
+.post ul, .post ol { list-style-position:outside;  margin-left: 40px; padding: 4px 0px 12px 0px; }
+.post .header-sub {  color:#ABABAB;  margin:0px 0px 20px 0px; padding: 0px; }
+.post_full .header-sub { font-size: 16px; text-align: center; color:#ABABAB; padding-bottom: 12px; margin: 0; }
+.post_full h1 { font-size: 25px; color: #6e6e6e; margin: 0px; padding:0px; text-align: center; }
+.post_full ul, .post_full ol { list-style-position:outside;  margin-left: 40px; padding: 4px 0px 12px 0px; }
+.post_full p.header-sub { text-align: center }
+.comment-head { margin: 10px 0; display: block;}
+.comment-admin cite { color: #7095ff; }
+
+
+/* Captions */
+
+.aligncenter, div.aligncenter { display: block; margin-left: auto; margin-right: auto; }
+.wp-caption { border: 1px solid #ddd; text-align: center; background-color: #f3f3f3; padding-top: 4px; margin: 10px; }
+.wp-caption p.wp-caption-text { font-size: 11px; line-height: 17px;	padding: 0 4px 5px;	margin: 0; margin: auto; text-align: center; }
+
+
+/* --- header --- */
+
+.header-right p { line-height: 15px; }
+.header-right h1 a { text-decoration:none; font-size: 35px; color: #ABABAB; margin: 45px 0 5px 0; }
+.header-right h2 { font-size: 180%; color: #1b53f4; margin-bottom: 10px; line-height:80%; }
+.header-left { height: 180px; width:230px; margin-right: 50px; float: left; }
+.header-left .moon { margin: 10px 0 0 10px }
+.header-right { height: 180px; width: 670px; float: left; font-family: Georgia,"Times New Roman",Times,serif; }
+.description { font-size: 120%; color: black; margin-bottom: 10px; line-height:80%; }
+
+
+/* --- navigation --- */
+
+.navigation ul { padding: 0px; margin: 0px;	}
+.navigation ul li{ display: inline; width: 20px; }
+.navigation { width: 950px; text-align: justify; font: 14px georgia; padding: 0px; overflow: auto; height:85px; clear:both; margin-bottom: 15px; }
+.navigation-day { width: 30.64px; float: left; font-size: 10px; text-align: center; color: #888; line-height: 20px; }
+.navigation-day a { text-decoration:none; font-size:12px; text-decoration:underline; }
+.navigation-month { width: 74.1px; float: left; font-size: 10px; text-align: center; color: #888;	line-height: 20px; }
+.navigation-month a { text-decoration:underline; font-size: 12px; cursor: pointer; }
+
+.nav { margin: 30px 0px; overflow: auto; clear: both;}
+.nav .nav-prev { float: left; }
+.nav .nav-next { float: right; }
+.now { font-size: 15px; color: #1B53F4; }
+.previous { text-align: left; width: 30px; color: #ababab;	line-height: 20px; float: left; }
+.previous a { cursor: pointer; }
+.next {	text-align: right; width: 30px;color: #ababab;	line-height: 20px; float: left; }
+.next a { cursor: pointer; }
+.inactive { color: #888888; text-decoration: none; }
+.selected { color: #1B53F4; font-size: 130%; }
+.selected a { color: #1B53F4; text-decoration:none;  }
+
+/* content-left  */
+
+#sidebar li { text-transform: lowercase; list-style-type: none;	}
+#sidebar li .textwidget { text-transform: none; text-align:left; }
+#sidebar { float: left; width: 230px; margin-right: 50px; }
+.entry ul li:before, #sidebar ul ul li:before { content: "\00BB \0020"; }
+
+#content-main {	float: left; width: 670px; margin-bottom: 30px; }
+.tag-div { display: block;  text-align: center; }
+.tag-div h1 { display: inline; color:#ABABAB; }
+.tag { text-transform:capitalize; }
+.comment { padding: 5px 0; }
+.author { display:inline;  }
+#comment-list { width: 325px; min-height: 10px; margin-right:20px; float: left; display: block; }
+#comment-form { width: 325px;  float: left;  }
+.postmetadata { background-color: #c6c6c6; color: #505050; clear: both; padding: 10px; }
