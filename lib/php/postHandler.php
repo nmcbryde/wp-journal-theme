@@ -4,23 +4,11 @@
 	header("Content-type: text/xml");
 	header("Cache-Control: no-cache");
 
-    /* Development settings
-    $dbhost = 'localhost';
-    $dbuser = 'root';
-    $dbname = 'blog_development';
-    $dbpass = 'lollypops'; //*/
-
-    /* Staging settings
-    $dbhost = 'mysql.growthgraph.dreamhosters.com';
-    $dbuser = 'growthg_admin';
-    $dbname = 'blog_staging';
-    $dbpass = '6Gu9m267'; //*/
-
-    //* Production settings
-    $dbhost = 'mysql.quailers.com';
-    $dbuser = 'growthg_admin';
-    $dbpass = '6Gu9m267';
-     $dbname = 'nigelblog_production'; //*/
+    
+    $dbhost = 'mysql.domain.com';
+    $dbuser = 'admin';
+    $dbpass = 'password';
+    $dbname = 'blog';
 
 
     $conn = mysql_connect($dbhost, $dbuser, $dbpass) or die ('Error connecting to mysql');

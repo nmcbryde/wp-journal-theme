@@ -1,0 +1,9 @@
+Journal WordPress Theme 0.1
+
+Installation
+
+This theme is in a very early stage of release, may require some hacking to get working, and though is not supported in any way please feel free to contact me if you need some help getting anything working of for fix requests.
+
+1. Ensure the database settings in lib/php/postHandler.php reflect your wordpress database credentials.
+
+2. If the posts are not displaying, check that the URL in lib/js/nav.js on line 125 points to the postHandler.php file mentioned above. This can sometimes change based on server config.
